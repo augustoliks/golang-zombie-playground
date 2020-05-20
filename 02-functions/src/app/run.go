@@ -81,5 +81,4 @@ func main() {
 	changeGlobalVar()
 	fmt.Println("After: ", globalLevelVar01)
 	fmt.Println("After &: ", &globalLevelVar01)
-
 }
