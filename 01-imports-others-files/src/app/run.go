@@ -7,7 +7,8 @@ import (
 )
 
 func main() {
-	fmt.Println(parentpack.PublicVariable01)
-	fmt.Println(parentpack.PublicVariable02)
-	fmt.Println(childpack.PublicVariable01)
+	fmt.Println("parentpack", parentpack.PublicVariable01)
+	fmt.Println("parentpack", parentpack.PublicVariable02)
+	fmt.Println("parentpack/childpack", childpack.PublicVariable01)
+	fmt.Println("parentpack/childpack", childpack.PublicVariable02)
 }
