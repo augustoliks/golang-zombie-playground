@@ -1,3 +1,3 @@
 package childpack
 
-var PublicVariable = "childpack | namespace01"
+var PublicVariable01 = "childpack | namespace01"
